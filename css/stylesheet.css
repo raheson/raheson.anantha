@@ -1,0 +1,192 @@
+body {
+  text-align: center;
+  background-color: #f7f7f7;
+  overflow-x: hidden;
+}
+
+.header-box{
+	position: relative;
+	background-image: url("../images/header-pic.jpg");
+	color: #000;
+	height:25em;
+	text-align: center;
+	background-size: cover;
+}
+
+.project-box{
+	margin-top:3.5em;
+	position: relative;
+	background-image: url("../images/hustle.jpg");
+	color: #000;
+	height:32.5em;
+	text-align: center;
+	opacity:1;
+	background-size: cover;
+}
+
+.header{
+	position: relative;
+	padding: 1em 1em 1em 1em;
+	color: #fff;
+	font-size: 110%;
+	font-family: 'Nunito', sans-serif;
+	letter-spacing: 4px;
+	border-color: #fff;
+	border-style: solid;
+	border-width:1px;
+}
+
+.header:hover{
+	color:#000;
+	background-color: #fff;
+}
+
+.view-more{
+	position: relative;
+	width:20%;
+	padding: 1em 1em 1em 1em;
+	color: #fff;
+	font-size: 90%;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 3px;
+	border-color: #fff;
+	border-style: solid;
+	border-width:1px;
+}
+
+.view-more:hover{
+	color:#000;
+	background-color: #fff;
+}
+
+.view-more-me{
+	position: relative;
+	width:20%;
+	padding: 1.5em 1.5em 1.5em 1.5em;
+	color: #000;
+	font-size: 90%;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 3px;
+	border-color: #343434;
+	border-style: solid;
+	border-width:1px;
+}
+
+.view-more-me:hover{
+	color:#fff;
+	background-color: #343434;
+}
+
+.end-box-1{
+	font-family:'Raleway', sans-serif;
+	height:10em;
+	background-color: #4e4e4e;
+	color:#fff;
+	letter-spacing: 3px;
+}
+
+.end-box-2{
+	font-family:'Raleway', sans-serif;
+	height:35em;
+	background-color: #343434;
+	color:#818181;
+	letter-spacing: 3px;
+}
+.end-tags{
+	padding-top: 2em;
+	padding-bottom: 7em;
+}
+.end-tag{
+	color:#818181;
+	font-size: 100%;
+}
+
+.end-tag:hover{
+	color:#fff;
+}
+
+#visit-my-gh{
+	padding-top:1.5em;
+	font-size: 160%;
+}
+
+#name{
+	font-family:'Raleway', sans-serif;
+	font-size:5em;
+	font-weight: bolder;
+	color: #fff;
+
+}
+
+#who{
+	padding-bottom:;
+	font-family:'Raleway', sans-serif;
+}
+.whoami{
+	margin-top:2em;
+}
+.about-me{
+	padding:2em;
+}
+
+#description{
+	text-align: left;
+	font-family:'Raleway', sans-serif;
+	font-size: 1.6em;
+	color: #000;
+}
+
+#line-1{
+    position: relative;
+    width: 18em;
+    margin: 2.0em auto auto auto;
+    border-right: 2px solid #fff;
+    font-size: 2em;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-align: center;
+   	letter-spacing: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+#wswe{
+	margin-top:2px;
+}
+
+.profile{
+	width:40%;
+	height: auto;
+	border-radius: 50%;
+	box-shadow: 5px 5px 5px #888888;
+}
+.social{
+	padding-top:2em;
+}
+
+.linkedin{
+	margin-top:3em;
+	width:300px;
+	 height:70px;
+	 display:block;
+ 	background:transparent url("../images/linkedin-h.png") center top no-repeat;
+}
+
+.linkedin:hover{
+	background-image: url("../images/linkedin-c.png");
+}
+
+
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 17.0em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: #fff;}
+  to{border-right-color: transparent;}
+}
