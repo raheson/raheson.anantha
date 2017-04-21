@@ -16,7 +16,7 @@ body {
 .project-box{
 	margin-top:3.5em;
 	position: relative;
-	background-image: url("../images/hustle.jpg");
+	background-image: url("../images/market-1.jpg");
 	color: #000;
 	height:32.5em;
 	text-align: center;
@@ -37,6 +37,21 @@ body {
 }
 
 .header:hover{
+	color:#000;
+	background-color: #fff;
+}
+
+.header-home{
+	position: relative;
+	padding: 1em 1em 1em 1em;
+	color:#000;
+	background-color: #fff;
+	font-size: 110%;
+	font-family: 'Nunito', sans-serif;
+	letter-spacing: 4px;
+}
+
+.header-home:hover{
 	color:#000;
 	background-color: #fff;
 }
@@ -88,7 +103,7 @@ body {
 .end-box-2{
 	font-family:'Raleway', sans-serif;
 	height:35em;
-	background-color: #343434;
+	background-color: #282828;
 	color:#818181;
 	letter-spacing: 3px;
 }
@@ -110,6 +125,14 @@ body {
 	font-size: 160%;
 }
 
+.visit-github{
+	color:#818181;
+}
+
+.visit-github:hover{
+	color:#fff;
+}
+
 #name{
 	font-family:'Raleway', sans-serif;
 	font-size:5em;
@@ -119,14 +142,36 @@ body {
 }
 
 #who{
-	padding-bottom:;
+	padding-bottom:0.5em;
 	font-family:'Raleway', sans-serif;
 }
+
+#project{
+	padding-bottom:0.5em;
+	font-family:'Raleway', sans-serif;
+	color:#fff;
+}
+
+#view-project{
+	font-family:'Raleway', sans-serif;
+	color:#fff;
+}
+
+.visit-projects{
+	color:#000;
+}
+
+.visit-projects:hover{
+	color:#000;
+}
+
 .whoami{
 	margin-top:2em;
 }
+
 .about-me{
-	padding:2em;
+	padding-top:4.3em;
+	padding-right:1.5em;
 }
 
 #description{
@@ -134,6 +179,13 @@ body {
 	font-family:'Raleway', sans-serif;
 	font-size: 1.6em;
 	color: #000;
+}
+
+#description-2{
+	text-align: left;
+	font-family:'Raleway', sans-serif;
+	font-size: 1.6em;
+	color: #fff;
 }
 
 #line-1{
@@ -151,7 +203,7 @@ body {
     transform: translateY(-50%);
 }
 #wswe{
-	margin-top:2px;
+	padding-top:3em;
 }
 
 .profile{
@@ -160,20 +212,47 @@ body {
 	border-radius: 50%;
 	box-shadow: 5px 5px 5px #888888;
 }
+
 .social{
-	padding-top:2em;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.linkedin{
-	margin-top:3em;
-	width:300px;
-	 height:70px;
-	 display:block;
+.linkedin-link{
+	width:35px;
+	height:35px;
+	margin-left: 0.5em;
+	margin-right:0.5em;
  	background:transparent url("../images/linkedin-h.png") center top no-repeat;
 }
 
-.linkedin:hover{
+.linkedin-link:hover{
 	background-image: url("../images/linkedin-c.png");
+}
+
+.github-link{
+	width:35px;
+	height:35px;
+	margin-left: 0.5em;
+	margin-right:0.5em;
+ 	background:transparent url("../images/github-h.png") center top no-repeat;
+}
+
+.github-link:hover{
+	background-image: url("../images/github-c.png");
+}
+
+.fb-link{
+	width:35px;
+	height:35px;
+	margin-left: 0.5em;
+	margin-right:0.5em;
+ 	background:transparent url("../images/fb-h.png") center top no-repeat;
+}
+
+.fb-link:hover{
+	background-image: url("../images/fb-c.png");
 }
 
 
